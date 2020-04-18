@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mui-primary-color-picker/static/css/main.b693b373.chunk.css",
+    "main.js": "/mui-primary-color-picker/static/js/main.c059a7d1.chunk.js",
+    "main.js.map": "/mui-primary-color-picker/static/js/main.c059a7d1.chunk.js.map",
+    "runtime-main.js": "/mui-primary-color-picker/static/js/runtime-main.e5c17f0e.js",
+    "runtime-main.js.map": "/mui-primary-color-picker/static/js/runtime-main.e5c17f0e.js.map",
+    "static/js/2.4dab0451.chunk.js": "/mui-primary-color-picker/static/js/2.4dab0451.chunk.js",
+    "static/js/2.4dab0451.chunk.js.map": "/mui-primary-color-picker/static/js/2.4dab0451.chunk.js.map",
+    "index.html": "/mui-primary-color-picker/index.html",
+    "precache-manifest.40ae775e33a704a5107539455c33e212.js": "/mui-primary-color-picker/precache-manifest.40ae775e33a704a5107539455c33e212.js",
+    "service-worker.js": "/mui-primary-color-picker/service-worker.js",
+    "static/css/main.b693b373.chunk.css.map": "/mui-primary-color-picker/static/css/main.b693b373.chunk.css.map",
+    "static/js/2.4dab0451.chunk.js.LICENSE.txt": "/mui-primary-color-picker/static/js/2.4dab0451.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5c17f0e.js",
+    "static/js/2.4dab0451.chunk.js",
+    "static/css/main.b693b373.chunk.css",
+    "static/js/main.c059a7d1.chunk.js"
+  ]
+}
