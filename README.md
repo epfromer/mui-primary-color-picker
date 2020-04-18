@@ -4,25 +4,34 @@
 
 [![NPM](https://img.shields.io/npm/v/mui-primary-color-picker.svg)](https://www.npmjs.com/package/mui-primary-color-picker) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+Color picker for [`Material-UI`](https://material-ui.com/) that emits valid [`color`](https://material-ui.com/customization/color/) values from Material-UI's [`palette`](https://material-ui.com/customization/palette/) for setting primary or secondary interface colors.
+
+![`<PrimaryColorPicker>` in action](https://github.com/epfromer/mui-primary-color-picker/raw/master/doc/screenrec.gif)
+
+## Demo
+
+https://epfromer.github.io/mui-primary-color-picker/
+
 ## Install
 
 ```bash
 npm install --save mui-primary-color-picker
 ```
 
+```bash
+yarn add mui-primary-color-picker
+```
+
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
+import PrimaryColorPicker from 'material-ui-primary-color-picker'
 
-import MyComponent from 'mui-primary-color-picker'
-import 'mui-primary-color-picker/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+<PrimaryColorPicker
+  defaultColor="#2196f3"
+  onChange={(color) => console.log(color)}
+/>
 ```
 
 ## License
