@@ -1,6 +1,6 @@
 {
   "name": "@klonzo/mui-primary-color-picker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Primary/secondary color picker for Material-UI",
   "author": "Ed Pfromer epfromer@gmail.com",
   "license": "MIT",
