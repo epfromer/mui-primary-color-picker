@@ -103,7 +103,7 @@ function PrimaryColorPicker(props) {
   )
 
   return (
-    <>
+    <React.Fragment>
       <div className={classes.sliderContainer}>
         <Typography id={'ShadeSliderLabel'}>Shade:</Typography>
         <Slider
@@ -163,7 +163,7 @@ function PrimaryColorPicker(props) {
           )
         })}
       </div>
-    </>
+    </React.Fragment>
   )
 }
 
