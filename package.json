@@ -33,6 +33,12 @@
   "peerDependencies": {
     "react": "^16.13.1"
   },
+  "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.10",
+    "prop-types": "^15.7.2"
+  },
   "devDependencies": {
     "microbundle-crl": "^0.13.9",
     "babel-eslint": "^10.1.0",

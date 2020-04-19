@@ -26,13 +26,15 @@ yarn add mui-primary-color-picker
 
 ```jsx
 import React from 'react'
-import PrimaryColorPicker from 'material-ui-primary-color-picker'
+import PrimaryColorPicker from 'mui-primary-color-picker'
 
 <PrimaryColorPicker
   defaultColor="#2196f3"
   onChange={(color) => console.log(color)}
 />
 ```
+
+Feel free to make suggestions for improvements.
 
 ## License
 
