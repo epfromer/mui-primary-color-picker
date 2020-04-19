@@ -131,6 +131,7 @@ function PrimaryColorPicker(props) {
                   colors[selectedHue][shades[selectedShadeIndex]] ===
                   backgroundColor
                 }
+                id={hue}
                 onChange={(e) => {
                   props.onChange(
                     colors[e.target.value][shades[selectedShadeIndex]]
@@ -169,6 +170,7 @@ function PrimaryColorPicker(props) {
 
 PrimaryColorPicker.propTypes = {
   classes: PropTypes.object.isRequired,
+  onChange: PropTypes.func.isRequired,
 }
 
 export default withStyles(styles)(PrimaryColorPicker)
