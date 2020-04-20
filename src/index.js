@@ -14,17 +14,17 @@ const shades = [
   900,
   800,
   700,
+  'A700',
   600,
   500,
   400,
+  'A400',
   300,
   200,
-  100,
-  50,
-  'A700',
-  'A400',
   'A200',
+  100,
   'A100',
+  50,
 ]
 
 const styles = (theme) => ({
@@ -114,7 +114,6 @@ function PrimaryColorPicker(props) {
           step={1}
           onChange={(e, shadeIndex) => {
             props.onChange(colors[selectedHue][shades[shadeIndex]])
-            console.log(shades[shadeIndex])
             setSelectedShadeIndex(shadeIndex)
           }}
           aria-labelledby={'ShadeSliderLabel'}
