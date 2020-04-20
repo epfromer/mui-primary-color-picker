@@ -170,7 +170,7 @@ function PrimaryColorPicker(props) {
 
 PrimaryColorPicker.propTypes = {
   classes: PropTypes.object.isRequired,
-  onChange: PropTypes.func.isRequired,
+  // onChange: PropTypes.func.isRequired,
 }
 
 export default withStyles(styles)(PrimaryColorPicker)
