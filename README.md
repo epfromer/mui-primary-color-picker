@@ -2,7 +2,7 @@
 
 > Primary/secondary color picker for Material-UI.
 
-[![NPM](https://img.shields.io/npm/v/mui-primary-color-picker.svg)](https://www.npmjs.com/package/mui-primary-color-picker) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/mui-primary-color-picker.svg)](https://www.npmjs.com/package/mui-primary-color-picker) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://travis-ci.org/epfromer/mui-primary-color-picker.svg?branch=master)](https://travis-ci.org/epfromer/mui-primary-color-picker)
 
 Color picker for [`Material-UI`](https://material-ui.com/) that emits valid [`color`](https://material-ui.com/customization/color/) values from Material-UI's [`palette`](https://material-ui.com/customization/palette/) for setting primary or secondary interface colors.
 
