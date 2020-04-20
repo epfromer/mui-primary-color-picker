@@ -11,7 +11,7 @@ steps:
     npm test
     npm run build
     npm test
-  displayName: 'npm install anb build'
+  displayName: 'npm install and build'
 
 - task: PublishTestResults@2
   condition: succeededOrFailed()
