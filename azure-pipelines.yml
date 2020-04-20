@@ -1,26 +1,17 @@
 pool:
   name: Hosted VS2017
+
 steps:
 - task: NodeTool@0
   displayName: 'Use Node version'
   inputs:
-    versionSpec: 8.4
+    versionSpec: 12.x
 
-- task: Npm@0
-  displayName: 'Install application dependencies'
-  inputs:
-    arguments: '--force'
-
-- task: ArchiveFiles@1
-  displayName: 'Archive files '
-  inputs:
-    rootFolder: '$(System.DefaultWorkingDirectory)'
-    includeRootFolder: false
-
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: drop'
-
-- script: npm test
+- script: |
+    npm test
+    npm run build
+    npm test
+  displayName: 'npm install anb build'
 
 - task: PublishTestResults@2
   condition: succeededOrFailed()
