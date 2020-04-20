@@ -114,6 +114,7 @@ function PrimaryColorPicker(props) {
           step={1}
           onChange={(e, shadeIndex) => {
             props.onChange(colors[selectedHue][shades[shadeIndex]])
+            console.log(shades[shadeIndex])
             setSelectedShadeIndex(shadeIndex)
           }}
           aria-labelledby={'ShadeSliderLabel'}
