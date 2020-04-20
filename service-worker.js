@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mui-primary-color-picker/precache-manifest.40ae775e33a704a5107539455c33e212.js"
+  "/mui-primary-color-picker/precache-manifest.8c9dfa6f99746850c63592cf606e8504.js"
 );
 
 self.addEventListener('message', (event) => {
