@@ -1,0 +1,21 @@
+pool:
+  name: Hosted VS2017
+steps:
+- task: NodeTool@0
+  displayName: 'Use Node version'
+  inputs:
+    versionSpec: 8.4
+
+- task: Npm@0
+  displayName: 'Install application dependencies'
+  inputs:
+    arguments: '--force'
+
+- task: ArchiveFiles@1
+  displayName: 'Archive files '
+  inputs:
+    rootFolder: '$(System.DefaultWorkingDirectory)'
+    includeRootFolder: false
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifact: drop'
