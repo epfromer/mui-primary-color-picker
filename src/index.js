@@ -131,7 +131,7 @@ function PrimaryColorPicker(props) {
                   colors[selectedHue][shades[selectedShadeIndex]] ===
                   backgroundColor
                 }
-                id={hue}
+                data-testid={hue}
                 onChange={(e) => {
                   props.onChange(
                     colors[e.target.value][shades[selectedShadeIndex]]
