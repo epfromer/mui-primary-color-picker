@@ -77,6 +77,10 @@
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"
+    ],
+    "coverageReporters": [
+      "text",
+      "cobertura"
     ]
   },
   "browserslist": {
