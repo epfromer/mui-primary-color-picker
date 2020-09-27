@@ -2,7 +2,7 @@
 
 > Primary/secondary color picker for Material-UI.
 
-[![NPM](https://img.shields.io/npm/v/mui-primary-color-picker.svg)](https://www.npmjs.com/package/mui-primary-color-picker) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Build Status](https://dev.azure.com/klonzo/mui-primary-color-picker/_apis/build/status/epfromer.mui-primary-color-picker?branchName=master)](https://dev.azure.com/klonzo/mui-primary-color-picker/_build/latest?definitionId=3&branchName=master) [![codecov](https://codecov.io/gh/epfromer/mui-primary-color-picker/branch/master/graph/badge.svg)](https://codecov.io/gh/epfromer/mui-primary-color-picker) 
+[![NPM](https://img.shields.io/npm/v/mui-primary-color-picker.svg)](https://www.npmjs.com/package/mui-primary-color-picker) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![codecov](https://codecov.io/gh/epfromer/mui-primary-color-picker/branch/master/graph/badge.svg)](https://codecov.io/gh/epfromer/mui-primary-color-picker)
 
 Color picker for [`Material-UI`](https://material-ui.com/) that emits valid [`color`](https://material-ui.com/customization/color/) values from Material-UI's [`palette`](https://material-ui.com/customization/palette/) for setting primary or secondary interface colors.
 
